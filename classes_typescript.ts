@@ -7,7 +7,7 @@
   const person = new Person();
   person.name = "Jane";
   
-  console.log(person);
+  console.log(`Person Details: ${person}`);
 
   // Members: Visibility
 
