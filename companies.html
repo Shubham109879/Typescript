@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json Demo</title>
+</head>
+<body>
+    <script>
+        let companies=`[
+    {
+      "name": "Big Corporation",
+      "numberOfEmployees":10000,
+      "ceo": "Mary",
+      "rating": 3.6
+    },
+
+    {
+      "name": "Multi National",
+      "numberOfEmployees":12000,
+      "ceo": "John",
+      "rating": 4.3
+    }
+]`
+
+ //console.log(companies);
+
+ console.log(JSON.parse(companies));
+
+ console.log(JSON.parse(companies)[0].name);
+
+ console.log(JSON.parse(companies)[1].name);
+
+    </script>
+</body>
+</html>
